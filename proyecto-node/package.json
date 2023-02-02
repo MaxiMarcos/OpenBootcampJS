@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "ej2": "node ejercicioN2.js",
+    "ejercicio3": "factorial-for.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
