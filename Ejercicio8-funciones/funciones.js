@@ -28,11 +28,8 @@ async function miPromesa2() {
 function* generarID() {
 
     let id = 0;
-    while(true) {
-        id += 2
-        if(id >= 7) {
-            return id;
-        } yield id;
+    while(id <= 7) {
+        yield id += 2;
     }
 }
 
